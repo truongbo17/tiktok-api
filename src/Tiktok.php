@@ -8,7 +8,7 @@ use GuzzleHttp\Exception\GuzzleException;
 use Illuminate\Support\Arr;
 use Log;
 
-class TiktokApi
+class Tiktok
 {
     /**
      * @var string $host

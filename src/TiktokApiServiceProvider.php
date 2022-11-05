@@ -15,7 +15,7 @@ class TiktokApiServiceProvider extends ServiceProvider
         $this->loadHelpers();
         // facade
         $client = new Client($this->getConfigGuzzle());
-        $this->app->singleton('tiktok-api', fn() => new TiktokApi(client: $client));
+        $this->app->singleton('tiktok-api', fn() => new Tiktok(client: $client));
 
         $loader = AliasLoader::getInstance();
         $loader->alias('TikTokApi', TiktokApiFacade::class);
