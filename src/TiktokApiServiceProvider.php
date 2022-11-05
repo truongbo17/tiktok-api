@@ -23,7 +23,7 @@ class TiktokApiServiceProvider extends ServiceProvider
 
     public function loadHelpers()
     {
-        require_once __DIR__ . './helpers.php';
+        require_once __DIR__ . '/helpers.php';
     }
 
     public function getConfigGuzzle(): array
