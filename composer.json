@@ -1,0 +1,35 @@
+{
+    "name": "truongbo/tiktok-api",
+    "description": "Full API Tiktok Data",
+    "keywords": [
+        "tiktok-api",
+        "tiktok-no-watermark",
+        "tiktok-data",
+        "tiktok"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TruongBo\\TiktokApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nguyen Quang Truong",
+            "email": "truongnq017@gmail.com",
+            "role": "Develop"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TruongBo\\TiktokApi\\TiktokApiServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
+}
