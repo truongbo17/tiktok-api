@@ -9,8 +9,7 @@
 * Search hashtag,video,music,..
 * Anymore...
 
-**Details about API in src/TikTok.php, you can get endpoint and customize it**
-**Do not update this package only if the api is changed**
+**Details about API in src/TikTok.php, you can get endpoint and customize it.Do not update this package only if the api is changed**
 
 ## Installation
 
