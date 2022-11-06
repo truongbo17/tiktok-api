@@ -13,7 +13,7 @@
 
 ## Installation
 
-Install the package:
+Install the package (If you use Laravel):
 
 ```php
 composer require truongbo/tiktok-api
